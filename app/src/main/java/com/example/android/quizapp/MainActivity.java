@@ -65,7 +65,7 @@ import android.widget.Toast;
             String answer2;
             question2_answer = (EditText) this.findViewById(R.id.question2_answer);
             answer2 = question2_answer.getText().toString().toLowerCase();
-            if (answer2.equals("Abuja")) {
+            if (answer2.equals("abuja")) {
                 answer2_score = 2;
             } else {
                 answer2_score = 0;
@@ -96,7 +96,7 @@ import android.widget.Toast;
             String answer4;
             question4_answer = (EditText) this.findViewById(R.id.question4_answer);
             answer4 = question4_answer.getText().toString().toLowerCase();
-            if (answer4.equals("Muhammadu Buhari")) {
+            if (answer4.equals("muhammadu buhari")) {
                 answer4_score = 2;
             } else {
                 answer4_score = 0;
